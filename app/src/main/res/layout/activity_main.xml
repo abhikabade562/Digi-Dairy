@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+       >
+
+        <Button
+            android:id="@+id/ItemButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="onClickReg1"
+            android:text="Add  Items" />
+
+        <Button
+            android:id="@+id/GenerateBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Genarate Bill"
+            android:onClick="onClickReg2"
+            android:layout_marginRight="16dp"/>
+
+
+
+        <!--        <Button-->
+        <!--            android:id="@+id/ViewIngredientsButton301"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="16dp"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:layout_marginRight="16dp"-->
+        <!--            android:background="@drawable/mybutton"-->
+        <!--            android:onClick="onClickReg1"-->
+        <!--            android:text="Assign Milk of Each Customer" />-->
+
+        <Button
+            android:id="@+id/AddCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="onClickReg3"
+            android:text="Add Customer" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/AddTabletButton301"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="16dp"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:layout_marginRight="16dp"-->
+        <!--            android:background="@drawable/mybutton"-->
+        <!--            android:onClick="onClickReg3"-->
+        <!--            android:text="Add Tablet" />-->
+
+        <Button
+            android:id="@+id/Notification1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="onClickReg4"
+            android:text="Notifications for Customer " />
+
+        <Button
+            android:id="@+id/Note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:onClick="onClickReg5"
+            android:text="Keep Note " />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/SetEndOfWeekButton302"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="16dp"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:layout_marginRight="16dp"-->
+        <!--            android:background="@drawable/mybutton"-->
+        <!--            android:onClick="onClickReg6"-->
+        <!--            android:text="Add Notice " />-->
+    </LinearLayout>
+</RelativeLayout>

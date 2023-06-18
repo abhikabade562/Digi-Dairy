@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DigiDairy</string>
+
+
+    <string name="DigiDairy">DigiDairy</string>
+    <string-array name="Milk_Type">
+        <item>Buffalo Milk</item>
+        <item>Cow Milk</item>
+        <item>Cheese</item>
+        <item>Buttermilk</item>
+    </string-array>
+    <string-array name="days">
+    <item>Monday</item>
+    <item>Tuesday</item>
+    <item>Wednesday</item>
+    <item>Thursday</item>
+    <item>Friday</item>
+    <item>Saturday</item>
+    <item>Sunday</item>
+    </string-array>
+</resources>
